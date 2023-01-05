@@ -1,6 +1,6 @@
 <!DOCTYPE html><html lang="zh-Hans"><head>
   <meta charset="utf-8">
-  <title>RxJS</title>
+  <title>RxJS 中文版</title>
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,7 @@
   <!-- NOTE: These need to be kept in sync with `ngsw-config.json`. -->
   <link href="/assets/css/material-icons.css" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/assets/css/material-icons.css"></noscript>
   <link href="/assets/css/roboto-mono.css" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/assets/css/roboto-mono.css"></noscript>
-  <link href="/assets/css/font-awesome.min.css" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/assets/css/font-awesome.min.css"></noscript>
+  <style>@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}</style><link href="/assets/css/font-awesome.min.css" rel="stylesheet" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="/assets/css/font-awesome.min.css"></noscript>
   <!-- -->
 
   <link rel="manifest" href="pwa-manifest.json">
@@ -29,7 +29,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="translucent">
 
   <script>
-    // Dynamically, pre-emptively, add `noindex`, which will be removed when the doc is ready and valid
+    // Dynamically, preemptively, add `noindex`, which will be removed when the doc is ready and valid
     var tag = document.createElement('meta');
     tag.name = 'robots';
     tag.content = 'noindex';
@@ -48,6 +48,17 @@
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
   </script>
   <!-- End Google Analytics -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-4VEN9K0DGX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-4VEN9K0DGX');
+  </script>
+  <!-- End Global site tag (gtag.js) - Google Analytics -->
 
   <script>
     // Report fatal errors to Google Analytics
@@ -82,12 +93,7 @@
   </script>
 
   <script>
-    if (window.document.documentMode) {
-      // polyfill IE11 in a blocking way
-      var s = document.createElement('script');
-      s.src = 'generated/ie-polyfills.min.js';
-      document.head.appendChild(s);
-    } else if (!Object.assign) {
+    if (!Object.assign) {
       // polyfill other non-evergreen browsers in a blocking way
       var polyfillUrl = "https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.find&flags=gated&unknown=polyfill";
 
@@ -129,8 +135,12 @@
     }
   </script>
 
-<style>@charset "UTF-8";body{font-family:Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;margin:0;color:#333;font-size:14px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}body,html{height:100%;}body{background-color:#fafafa;}@media print{*{box-shadow:none!important;}}body::-webkit-scrollbar{height:6px;width:6px;}body::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3);}body::-webkit-scrollbar-thumb{background-color:#6e6e6e;outline:1px solid #333;}</style><link rel="stylesheet" href="styles.a2bff4e6733237a101ed.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.a2bff4e6733237a101ed.css"></noscript></head>
+<style>body{font-family:Roboto,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;margin:0;color:#333;font-size:14px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}html,body{height:100%}body{background-color:#fafafa}@media print{*{box-shadow:none!important}}body::-webkit-scrollbar{height:6px;width:6px}body::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,.3)}body::-webkit-scrollbar-thumb{background-color:#6e6e6e;outline:1px solid #333}</style><link rel="stylesheet" href="styles.d3520e673ea432be.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.d3520e673ea432be.css"></noscript></head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=G-4VEN9K0DGX"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
   <aio-shell></aio-shell>
 
@@ -151,6 +161,6 @@
   </noscript>
   <script src="assets/js/devtools-welcome.js"></script>
   <script src="assets/js/translator.js"></script>
-<script src="runtime-es2015.3b35b741b5a03423752a.js" type="module"></script><script src="runtime-es5.3b35b741b5a03423752a.js" nomodule defer></script><script src="polyfills-es5.94c87d1d392984df8364.js" nomodule defer></script><script src="polyfills-es2015.d95e2a8ddc6ccacab517.js" type="module"></script><script src="main-es2015.4c11f8815c0c678da4fc.js" type="module"></script><script src="main-es5.4c11f8815c0c678da4fc.js" nomodule defer></script>
+<script src="runtime.1eaf1774a8ecf3e9.js" type="module"></script><script src="polyfills.965c71b4a2cb4cb3.js" type="module"></script><script src="main.babb7bc8ac10ef2e.js" type="module"></script>
 
 </body></html>

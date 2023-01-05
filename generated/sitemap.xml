@@ -166,12 +166,6 @@
     <loc>https://rxjs.dev/api/index/class/Subscriber</loc>
   </url>
   <url>
-    <loc>https://rxjs.dev/api/index/class/Notification</loc>
-  </url>
-  <url>
-    <loc>https://rxjs.dev/api/index/NotificationKind</loc>
-  </url>
-  <url>
     <loc>https://rxjs.dev/api/index/function/pipe</loc>
   </url>
   <url>
@@ -229,9 +223,6 @@
     <loc>https://rxjs.dev/api/index/function/defer</loc>
   </url>
   <url>
-    <loc>https://rxjs.dev/api/index/function/empty</loc>
-  </url>
-  <url>
     <loc>https://rxjs.dev/api/index/function/forkJoin</loc>
   </url>
   <url>
@@ -254,9 +245,6 @@
   </url>
   <url>
     <loc>https://rxjs.dev/api/index/function/merge</loc>
-  </url>
-  <url>
-    <loc>https://rxjs.dev/api/index/function/never</loc>
   </url>
   <url>
     <loc>https://rxjs.dev/api/index/function/of</loc>
@@ -478,6 +466,9 @@
     <loc>https://rxjs.dev/api/index/function/observeOn</loc>
   </url>
   <url>
+    <loc>https://rxjs.dev/api/index/function/onErrorResumeNextWith</loc>
+  </url>
+  <url>
     <loc>https://rxjs.dev/api/index/function/pairwise</loc>
   </url>
   <url>
@@ -503,6 +494,9 @@
   </url>
   <url>
     <loc>https://rxjs.dev/api/index/function/repeat</loc>
+  </url>
+  <url>
+    <loc>https://rxjs.dev/api/index/interface/RepeatConfig</loc>
   </url>
   <url>
     <loc>https://rxjs.dev/api/index/function/repeatWhen</loc>
@@ -674,9 +668,6 @@
   </url>
   <url>
     <loc>https://rxjs.dev/api/index/interface/SubscriptionLike</loc>
-  </url>
-  <url>
-    <loc>https://rxjs.dev/api/index/type-alias/SubscribableOrPromise</loc>
   </url>
   <url>
     <loc>https://rxjs.dev/api/index/interface/Subscribable</loc>
@@ -992,6 +983,9 @@
   </url>
   <url>
     <loc>https://rxjs.dev/api/operators/repeat</loc>
+  </url>
+  <url>
+    <loc>https://rxjs.dev/api/operators/RepeatConfig</loc>
   </url>
   <url>
     <loc>https://rxjs.dev/api/operators/repeatWhen</loc>

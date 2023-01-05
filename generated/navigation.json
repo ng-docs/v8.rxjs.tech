@@ -14,7 +14,12 @@
     },
     {
       "url": "https://blog.ralph.wang",
-      "title": "译者博客"
+      "title": "译者博客",
+      "external": true
+    },
+    {
+      "url": "https://rxjs.angular.tw",
+      "title": "正體中文版"
     }
   ],
   "TopBarNarrow": [],
@@ -26,7 +31,7 @@
       "children": [
         {
           "url": "guide/observable",
-          "title": "可观察者（Observables）"
+          "title": " 可观察者（Observables）"
         },
         {
           "url": "guide/observer",
@@ -104,7 +109,8 @@
         },
         {
           "url": "deprecations/multicasting",
-          "title": "Multicasting"
+          "title": "Multicasting",
+          "titleCn": "多播"
         },
         {
           "url": "deprecations/to-promise",
@@ -139,19 +145,19 @@
       "includePrerelease": false
     },
     "loose": false,
-    "raw": "7.5.2",
-    "major": 7,
-    "minor": 5,
-    "patch": 3,
+    "raw": "8.0.0-alpha.7",
+    "major": 8,
+    "minor": 0,
+    "patch": 0,
     "prerelease": [
       "local"
     ],
-    "build": "sha.63fc9da67",
-    "version": "7.5.3-local",
+    "build": "sha.94de8a71e",
+    "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "7.5.3-local+sha.63fc9da67",
+    "full": "8.0.0-local+sha.94de8a71e",
     "branch": "master",
-    "commitSHA": "63fc9da67a96e58c99b53710c9fd887440f73927"
+    "commitSHA": "94de8a71e1402cb57d586286bf4b12b1bd9e5ec7"
   }
 }

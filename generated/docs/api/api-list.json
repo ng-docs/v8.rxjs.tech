@@ -248,7 +248,7 @@
         "title": "concatMapTo",
         "path": "api/index/function/concatMapTo",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -409,14 +409,6 @@
         "path": "api/index/function/elementAt",
         "docType": "function",
         "stability": "",
-        "securityRisk": false
-      },
-      {
-        "name": "empty",
-        "title": "empty",
-        "path": "api/index/function/empty",
-        "docType": "function",
-        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -736,7 +728,7 @@
         "title": "mapTo",
         "path": "api/index/function/mapTo",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -784,7 +776,7 @@
         "title": "mergeMapTo",
         "path": "api/index/function/mergeMapTo",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -823,14 +815,6 @@
         "name": "multicast",
         "title": "multicast",
         "path": "api/index/function/multicast",
-        "docType": "function",
-        "stability": "deprecated",
-        "securityRisk": false
-      },
-      {
-        "name": "never",
-        "title": "never",
-        "path": "api/index/function/never",
         "docType": "function",
         "stability": "deprecated",
         "securityRisk": false
@@ -876,22 +860,6 @@
         "securityRisk": false
       },
       {
-        "name": "notification",
-        "title": "Notification",
-        "path": "api/index/class/Notification",
-        "docType": "class",
-        "stability": "deprecated",
-        "securityRisk": false
-      },
-      {
-        "name": "notificationkind",
-        "title": "NotificationKind",
-        "path": "api/index/NotificationKind",
-        "docType": "enum",
-        "stability": "deprecated",
-        "securityRisk": false
-      },
-      {
         "name": "objectunsubscribederror",
         "title": "ObjectUnsubscribedError",
         "path": "api/index/interface/ObjectUnsubscribedError",
@@ -912,7 +880,7 @@
         "title": "observable",
         "path": "api/index/const/observable",
         "docType": "const",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -1000,13 +968,21 @@
         "title": "of",
         "path": "api/index/function/of",
         "docType": "function",
-        "stability": "deprecated",
+        "stability": "",
         "securityRisk": false
       },
       {
         "name": "onerrorresumenext",
         "title": "onErrorResumeNext",
         "path": "api/index/function/onErrorResumeNext",
+        "docType": "function",
+        "stability": "",
+        "securityRisk": false
+      },
+      {
+        "name": "onerrorresumenextwith",
+        "title": "onErrorResumeNextWith",
+        "path": "api/index/function/onErrorResumeNextWith",
         "docType": "function",
         "stability": "",
         "securityRisk": false
@@ -1180,11 +1156,19 @@
         "securityRisk": false
       },
       {
+        "name": "repeatconfig",
+        "title": "RepeatConfig",
+        "path": "api/index/interface/RepeatConfig",
+        "docType": "interface",
+        "stability": "",
+        "securityRisk": false
+      },
+      {
         "name": "repeatwhen",
         "title": "repeatWhen",
         "path": "api/index/function/repeatWhen",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -1216,7 +1200,7 @@
         "title": "retryWhen",
         "path": "api/index/function/retryWhen",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -1368,7 +1352,7 @@
         "title": "startWith",
         "path": "api/index/function/startWith",
         "docType": "function",
-        "stability": "deprecated",
+        "stability": "",
         "securityRisk": false
       },
       {
@@ -1393,14 +1377,6 @@
         "path": "api/index/interface/Subscribable",
         "docType": "interface",
         "stability": "",
-        "securityRisk": false
-      },
-      {
-        "name": "subscribableorpromise",
-        "title": "SubscribableOrPromise",
-        "path": "api/index/type-alias/SubscribableOrPromise",
-        "docType": "type-alias",
-        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -1456,7 +1432,7 @@
         "title": "switchMapTo",
         "path": "api/index/function/switchMapTo",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -1616,7 +1592,7 @@
         "title": "timeoutWith",
         "path": "api/index/function/timeoutWith",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -1942,7 +1918,7 @@
         "title": "concatMapTo",
         "path": "api/operators/concatMapTo",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -2206,7 +2182,7 @@
         "title": "mapTo",
         "path": "api/operators/mapTo",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -2230,7 +2206,7 @@
         "title": "merge",
         "path": "api/operators/merge",
         "docType": "function",
-        "stability": "deprecated",
+        "stability": "",
         "securityRisk": false
       },
       {
@@ -2254,7 +2230,7 @@
         "title": "mergeMapTo",
         "path": "api/operators/mergeMapTo",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -2301,8 +2277,8 @@
         "name": "onerrorresumenext",
         "title": "onErrorResumeNext",
         "path": "api/operators/onErrorResumeNext",
-        "docType": "function",
-        "stability": "",
+        "docType": "const",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -2402,11 +2378,19 @@
         "securityRisk": false
       },
       {
+        "name": "repeatconfig",
+        "title": "RepeatConfig",
+        "path": "api/operators/RepeatConfig",
+        "docType": "interface",
+        "stability": "",
+        "securityRisk": false
+      },
+      {
         "name": "repeatwhen",
         "title": "repeatWhen",
         "path": "api/operators/repeatWhen",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -2430,7 +2414,7 @@
         "title": "retryWhen",
         "path": "api/operators/retryWhen",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -2542,7 +2526,7 @@
         "title": "startWith",
         "path": "api/operators/startWith",
         "docType": "function",
-        "stability": "deprecated",
+        "stability": "",
         "securityRisk": false
       },
       {
@@ -2574,7 +2558,7 @@
         "title": "switchMapTo",
         "path": "api/operators/switchMapTo",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
@@ -2694,7 +2678,7 @@
         "title": "timeoutWith",
         "path": "api/operators/timeoutWith",
         "docType": "function",
-        "stability": "",
+        "stability": "deprecated",
         "securityRisk": false
       },
       {
