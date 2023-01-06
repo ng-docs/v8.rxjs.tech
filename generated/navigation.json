@@ -132,7 +132,8 @@
   "docVersions": [
     {
       "title": "stable",
-      "url": "https://rxjs.dev/"
+      "url": "https://rxjs.dev/",
+      "titleCn": "稳定的"
     },
     {
       "title": "v6",
@@ -152,12 +153,12 @@
     "prerelease": [
       "local"
     ],
-    "build": "sha.ae9622ef6",
+    "build": "sha.b0906503b",
     "version": "8.0.0-local",
     "codeName": "snapshot",
     "isSnapshot": true,
-    "full": "8.0.0-local+sha.ae9622ef6",
+    "full": "8.0.0-local+sha.b0906503b",
     "branch": "master",
-    "commitSHA": "ae9622ef6d22ac23f2ae41682fd41207ec0ec2af"
+    "commitSHA": "b0906503baa32af4239c05cab88dc8ab0129b42a"
   }
 }
