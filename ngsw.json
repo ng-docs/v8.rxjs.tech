@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1672983975058,
+  "timestamp": 1676784821646,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -1165,7 +1165,7 @@
     "/generated/docs/api/webSocket/WebSocketSubject.json": "e8fcf3e2cb0bf6c28a97e8d6ca56db9245b74567",
     "/generated/docs/api/webSocket/WebSocketSubjectConfig.json": "33a3680697fc2969ecd765fa6424ff32e517dae5",
     "/generated/docs/api/webSocket/webSocket.json": "c620263b1a919929d44c67de77c676ba31713edb",
-    "/generated/docs/app/decision-tree-data.json": "62ac54d5e5a7b4e8bf3743469d30bb5399a904fa",
+    "/generated/docs/app/decision-tree-data.json": "41f46d09b6748401fd82009e0b7faaeb87663f5f",
     "/generated/docs/app/search-data.json": "9b594fc2de5758a6b6059ee5a59a3f1e4a45a138",
     "/generated/docs/blackLivesMatter.json": "f4690e50fc48ead75aa811d86eec5033b161d57e",
     "/generated/docs/code-of-conduct.json": "e90fc4530fb4979f98dcb396b2dd7e0304ec2f81",
